@@ -63,7 +63,7 @@ func Unquote(s string) (string, error) {
 			return str[1 : strlen-1], nil
 		}
 	}
-	return str, nil
+	return s, nil
 }
 
 // UnquoteBytes is the same as Unquote, except it modifies a byte slice in-place
